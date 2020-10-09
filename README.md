@@ -26,3 +26,7 @@ python app.py "[EMAIL]" "[PASSOWRD]"
 ## WARNING:
 
 I do not take responsibility for those who use this tool.
+
+## Contact:
+
+You can reach me here: facebook.com/aymen.elhaski.7
