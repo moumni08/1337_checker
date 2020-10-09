@@ -1,6 +1,6 @@
 # 1337
 ![alt img](https://steamuserimages-a.akamaihd.net/ugc/257085621762792178/95129443448D239196EEB866E383AB19A779E89E/)
-The new 1337 Checker for pool and check-in places.
+**The new 1337 Checker for pool and check-in places**
 
 ## Install Pipenv:
 
