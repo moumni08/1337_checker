@@ -1,0 +1,28 @@
+# 1337 Checker
+
+The new 1337 Checker for pool and check-in places.
+
+## Install Pipenv:
+
+```python
+pip install pipenv
+```
+
+## Install:
+
+```python
+git clone https://github.com/RyouYoo/1337_checker.git
+cd 1337_checker/src
+pipenv shell
+pipenv install
+```
+
+## Usage:
+
+```python
+python app.py "[EMAIL]" "[PASSOWRD]"
+```
+
+## WARNING:
+
+I do not take responsibility for those who use this tool.
