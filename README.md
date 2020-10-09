@@ -14,7 +14,7 @@ pip install pipenv
 git clone https://github.com/RyouYoo/1337_checker.git
 cd 1337_checker/src
 pipenv shell
-pipenv install
+pipenv install --dev
 ```
 
 ## Usage:
