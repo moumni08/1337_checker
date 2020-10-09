@@ -7,6 +7,7 @@ The new 1337 Checker for pool and check-in places.
 ```python
 pip install pipenv
 ```
+Python version: 3.8
 
 ## Install:
 
