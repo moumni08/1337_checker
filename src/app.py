@@ -52,6 +52,5 @@ except Exception:
     print("Usage: python app.py [EMAIL] [PASSWORD]")
 else:
     m.login()
-    m.CheckOrPool()
     m.StartCheking()
     m.close()
