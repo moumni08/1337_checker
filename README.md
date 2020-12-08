@@ -11,7 +11,7 @@ Python version: 3.8
 
 ## Install:
 
-```python
+```
 git clone https://github.com/RyouYoo/1337_checker.git
 cd 1337_checker/src
 pipenv shell
