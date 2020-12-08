@@ -21,7 +21,7 @@ pipenv install --dev
 ## Usage:
 
 ```python
-python app.py "[EMAIL]" "[PASSOWRD]"
+python app.py "[EMAIL]" "[PASSWORD]"
 ```
 
 ## WARNING:
