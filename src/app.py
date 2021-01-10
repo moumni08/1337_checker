@@ -10,8 +10,13 @@ class Bot():
         self.options.add_argument("--headless")
         self.email = email
         self.password = password
-        self.driver = webdriver.Chrome(executable_path="./chromedriver.exe",options=self.options)
-
+        # self.driver = webdriver.Chrome(executable_path="./chromedriver.exe",options=self.options)
+        if "win" in sys.platform:
+            driver_lol = "./chromedriver.exe"
+        else:
+            driver_lol = "./chromedriver"
+        self.driver = webdriver.Chrome(executable_path=driver_lol,options=self.options)
+        
     def login(self):
         base_login_url = "https://candidature.1337.ma/users/sign_in"
         self.driver.get(base_login_url)
@@ -31,7 +36,7 @@ class Bot():
         print(f"Checking for {self.CheckOrPool()} place...")
         place = False
         while not place:
-            time.sleep(900) # every 15 minute
+            time.sleep(300) # every 15 minute
             self.driver.refresh()
             if "S'inscrire" in self.driver.page_source:
                 print(f"I found a {self.CheckOrPool()} place...")
