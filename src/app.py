@@ -35,7 +35,7 @@ class Bot():
         print(f"Checking for {self.CheckOrPool()} place...")
         place = False
         while not place:
-            time.sleep(300) # every 15 minute
+            time.sleep(60)
             self.driver.refresh()
             if "S'inscrire" in self.driver.page_source:
                 print(f"I found a {self.CheckOrPool()} place...")
