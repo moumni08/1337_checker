@@ -10,7 +10,6 @@ class Bot():
         self.options.add_argument("--headless")
         self.email = email
         self.password = password
-        # self.driver = webdriver.Chrome(executable_path="./chromedriver.exe",options=self.options)
         if "win" in sys.platform:
             driver_lol = "./chromedriver.exe"
         else:
