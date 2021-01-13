@@ -30,4 +30,6 @@ I do not take responsibility for those who use this tool.
 
 ## Contact:
 
-You can reach me here: https://www.facebook.com/jakomthehandler/, or Discord: Jakom#0002
+You can reach me here: https://www.facebook.com/jakom0x64/
+
+Discord: Jakom0x64#0002
