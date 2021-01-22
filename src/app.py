@@ -3,6 +3,7 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 import time
 import webbrowser
+from webdriver_manager.chrome import ChromeDriverManager
 
 class Bot():
     def __init__(self, email, password):
@@ -10,11 +11,7 @@ class Bot():
         self.options.add_argument("--headless")
         self.email = email
         self.password = password
-        if "win" in sys.platform:
-            driver_lol = "./chromedriver.exe"
-        else:
-            driver_lol = "./chromedriver"
-        self.driver = webdriver.Chrome(executable_path=driver_lol,options=self.options)
+        self.driver = webdriver.Chrome(ChromeDriverManager(version="87.0.4280.88").install(), options=self.options)
         
     def login(self):
         base_login_url = "https://candidature.1337.ma/users/sign_in"
