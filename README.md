@@ -31,3 +31,7 @@ I do not take responsibility for those who use this tool.
 ## Contact:
 
 You can reach me here: https://www.facebook.com/jakom0x19/
+
+## Auto Notification:
+
+Join this server so you can get auto notification: https://discord.gg/rmCbG2VK72 and follow the steps..
