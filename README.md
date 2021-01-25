@@ -7,7 +7,7 @@
 ```python
 pip install pipenv
 ```
-Python version: 3.8
+Python version: 3.9
 
 ## Install:
 
