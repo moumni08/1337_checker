@@ -26,16 +26,13 @@ class Bot():
         inputs["submit"].click()
 
     def CheckOrPool(self):
-        if "meetings" not in self.driver.current_url:
-            return "pool"
-        else:
-            return "check-in"
+        return "check-in" if "meetings" not in self.driver.current_url else "check-in"
 
     def StartCheking(self):
         print(f"Checking for {self.CheckOrPool()} place...")
         place = False
         while not place:
-            time.sleep(60)
+            time.sleep(60) # every 1 minute
             self.driver.refresh()
             if "S'inscrire" in self.driver.page_source:
                 print(f"I found a {self.CheckOrPool()} place...")
