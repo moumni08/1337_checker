@@ -32,3 +32,4 @@ python app.py "test@domain.com" "password123"
 ```
 
 **FEEL FREE TO USE IT**
+**If you have any objections, contact me: jakom@crisi5.com**
