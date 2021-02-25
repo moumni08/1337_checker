@@ -7,7 +7,7 @@
 ```python
 pip install pipenv
 ```
-Python version: 3.9
+Python version: 3.9: https://www.python.org/downloads/release/python-392/
 
 ## Install:
 
